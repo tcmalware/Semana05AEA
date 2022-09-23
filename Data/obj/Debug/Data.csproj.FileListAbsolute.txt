@@ -1,0 +1,9 @@
+C:\Users\GENARO\source\repos\Semana05\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\GENARO\source\repos\Semana05\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\GENARO\source\repos\Semana05\Data\bin\Debug\Data.dll
+C:\Users\GENARO\source\repos\Semana05\Data\bin\Debug\Data.pdb
+C:\Users\GENARO\source\repos\Semana05\Data\bin\Debug\Entity.dll
+C:\Users\GENARO\source\repos\Semana05\Data\bin\Debug\Entity.pdb
+C:\Users\GENARO\source\repos\Semana05\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\GENARO\source\repos\Semana05\Data\obj\Debug\Data.dll
+C:\Users\GENARO\source\repos\Semana05\Data\obj\Debug\Data.pdb
