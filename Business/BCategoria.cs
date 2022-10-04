@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Data;
 using Entity;
 
+
 namespace Business
 {
     public class BCategoria
@@ -34,6 +35,7 @@ namespace Business
             }
             catch (Exception ex)
             {
+                //Escribir en el log
                 result = false;
             }
             return result;
@@ -49,6 +51,7 @@ namespace Business
             }
             catch (Exception ex)
             {
+                //Escribir en el log
                 result = false;
             }
             return result;
@@ -64,6 +67,7 @@ namespace Business
             }
             catch (Exception ex)
             {
+                //Escribir en el log
                 result = false;
             }
             return result;

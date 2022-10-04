@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -12,7 +8,7 @@ namespace Data
     {
 
 
-        public static string Connection { get; } = @"Data Source=DESKTOP-3I1FGFE\SQLEXPRESS;" + "Initial Catalog=Neptuno;Integrated Security=true";
+        public static string Connection { get; } = @"Data Source=DESKTOP-3I1FGFE\SQLEXPRESS;" + "Initial Catalog=lab6;Integrated Security=true";
         /// <summary> 
         /// Set the connection, command, and then execute the command with non query. 
         /// </summary> 

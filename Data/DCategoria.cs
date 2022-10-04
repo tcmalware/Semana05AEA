@@ -71,7 +71,7 @@ namespace Data
             {
                 comandText = "USP_UpdCategoria";
                 parameters = new SqlParameter[3];
-                parameters[0] = new SqlParameter("@idCategoria", SqlDbType.Int);
+                parameters[0] = new SqlParameter("@idcategoria", SqlDbType.Int);
                 parameters[0].Value = categoria.IdCategoria;
                 parameters[1] = new SqlParameter("@nombrecategoria", SqlDbType.VarChar);
                 parameters[1].Value = categoria.NombreCategoria;
@@ -102,7 +102,5 @@ namespace Data
                 throw ex;
             }
         }
-
-
     }
 }

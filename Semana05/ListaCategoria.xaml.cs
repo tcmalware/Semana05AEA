@@ -26,10 +26,11 @@ namespace Semana05
             BCategoria Bcategoria = null;
             try
             {
+                //0: Listar todas las categorias
                 Bcategoria = new BCategoria();
                 dgvCategoria.ItemsSource = Bcategoria.Listar(0);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 MessageBox.Show("Comunicarse con el Administrador");
             }
@@ -41,6 +42,7 @@ namespace Semana05
 
         private void BtnNuevo_Click(object sender, RoutedEventArgs e)
         {
+            //Coloco 0 porque es uno nuevo
             ManCategoria manCategoria = new ManCategoria(0);
             manCategoria.ShowDialog();
             Cargar();
@@ -52,7 +54,7 @@ namespace Semana05
             var item = (Categoria)dgvCategoria.SelectedItem;
             if (null == item) return;
             idCategoria = Convert.ToInt32(item.IdCategoria);
-
+            //Coloco 0 porque es uno nuevo
             ManCategoria manCategoria = new ManCategoria(idCategoria);
             manCategoria.ShowDialog();
             Cargar();
