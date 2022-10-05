@@ -13,6 +13,12 @@
     <Compile Update="ManCategoria.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\ListaCategoria.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ManCategoria.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="ListaCategoria.xaml">
